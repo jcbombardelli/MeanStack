@@ -14,6 +14,7 @@ app.engine('html', require('ejs').renderFile);
 app.use(express.static(path.join(__dirname, 'client')));
 app.set('clientPath', path.join(__dirname, '../..', 'client'));
 app.use(express.static(app.get('clientPath')))
+app.use(express.static(app.get('../../../MeanStack')))
 
 //BodyParser Middleware Configuration
 app.use(bodyParser.json());
