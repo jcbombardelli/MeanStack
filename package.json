@@ -14,6 +14,7 @@
   ],
   "author": "JC Bombardelli",
   "license": "GNU",
+  "url": "https://github.com/jcbombardelli/MeanStack/blob/master/LICENSE",
   "dependencies": {
     "body-parser": "^1.17.2",
     "ejs": "^2.5.6",

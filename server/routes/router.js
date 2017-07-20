@@ -5,7 +5,7 @@ module.exports = function(app){
     require('./api/v1/sample.route')(app);
 
     app.all("/", function(req,res){
-        res.render('../../client/index.html');
+        res.render('../../client/src/index.html');
     });
 
     
